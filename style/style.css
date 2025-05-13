@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  
+  .todo-container {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    min-width: 600px;
+    min-height: 600px;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 8px 32px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 8px;
+    margin-top: 5px;
+    background: #eee;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
